@@ -1,7 +1,11 @@
 <h1 align="center">Enabling Country-Scale Land Cover Mapping with <br> Meter-Resolution Satellite Imagery</h1>
 
 ## Description
-This is a [pytorch](https://pytorch.org/) implementation of [Dynamic Pseudo-label Assignment (DPA)](https://arxiv.org/abs/2209.00727) with U-Net as the backbone. DPA is an unsupervised domain adaptation (UDA) method applied to different satellite images for larg-scale land cover mapping. In our work, it has been validated for five megacities in China and six cities in other five Asian countries severally using unlabeled PlanetScope (PS), Gaofen-1 (GF-1), and Sentinel-2 (ST-2) satellite images.
+This is a [pytorch](https://pytorch.org/) updated version of the project [Dynamic Pseudo-label Assignment (DPA)](https://arxiv.org/abs/2209.00727) with U-Net as the backbone. DPA is an unsupervised domain adaptation (UDA) method applied to different satellite images for larg-scale land cover mapping. In our work, it has been validated for five megacities in China and six cities in other five Asian countries severally using unlabeled PlanetScope (PS), Gaofen-1 (GF-1), and Sentinel-2 (ST-2) satellite images.
+The Noval methods  updated in the projecta are:
+  1.MA-UNet (Multi-Attention UNet) 
+  2.New Loss Functions
+  3.Extended Data Augmentation
 
 ## Usage
 ### Requisites
